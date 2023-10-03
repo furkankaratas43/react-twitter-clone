@@ -7,7 +7,26 @@ const initialState = {
         fullName: "Furkan Karataş",
         avatar: "https://pbs.twimg.com/profile_images/1691897160151826432/_4J4ek7b_400x400.jpg"
     },
-    accounts: []
+    accounts: [
+        {
+            id: 1,
+            username: "_furkankaratas",
+            fullName: "Furkan Karataş",
+            avatar: "https://pbs.twimg.com/profile_images/1691897160151826432/_4J4ek7b_400x400.jpg"
+        },
+        {
+            id: 2,
+            username: "zekworks",
+            fullName: "ZékWorks",
+            avatar: "https://pbs.twimg.com/profile_images/1246914893196001281/0yGisWCS_400x400.jpg"
+        },
+        {
+            id: 3,
+            username: "borclarim",
+            fullName: "BORÇLARIM.COM",
+            avatar: "https://pbs.twimg.com/profile_images/1389534578860339201/TByaL3WN_400x400.jpg"
+        }
+    ]
 }
 
 const auth = createSlice({

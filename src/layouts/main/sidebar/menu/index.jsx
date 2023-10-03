@@ -3,12 +3,14 @@ import classNames from "classnames";
 import {mainMenu} from "~/utils/consts.jsx";
 import More from '~/layouts/main/sidebar/menu/more';
 import New from '~/layouts/main/sidebar/menu/new';
+import {useAccount} from "~/store/auth/hooks.js";
 
 export default function Menu() {
+    const account = useAccount()
     return (
-        <nav className="mt-0.5 mb-1">
+        <nav className="mt-0.5 mb-1" key={account}>
             {mainMenu.map((menu, index) => (
-                <NavLink key={index} className="block group" to={menu.path}>
+                <NavLink key={index} className="block group" to={typeof menu.path === 'function' ? menu.path() : menu.path}>
                     {({isActive}) => (
                         <div
                             className={classNames("p-3 rounded-full inline-flex items-center transition-colors gap-5 group-hover:bg-[#eff3f41a]", {"font-bold": isActive})}>

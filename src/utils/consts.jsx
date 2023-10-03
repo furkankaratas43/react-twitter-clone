@@ -1,3 +1,6 @@
+import store from "~/store";
+
+
 export const mainMenu = [
     {
         path: '/',
@@ -113,7 +116,9 @@ export const mainMenu = [
         }
     },
     {
-        path: '/_furkankaratas',
+        path: () => {
+            return `/${store.getState()?.auth?.currentAccount.username}`
+        },
         title: 'Profil',
         icon: {
             default: (

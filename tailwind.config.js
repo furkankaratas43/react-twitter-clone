@@ -10,6 +10,9 @@ export default {
         box: 'rgba(255,255,255,0.2) 0px 0px 15px, rgba(255, 255, 255, 0.15) 0px 0px 3px 1px'
       }
     },
+    fontFamily: {
+      'twitter': ['"TwitterChirp"','-apple-system','BlinkMacSystemFont','"Segoe UI"','Roboto','Helvetica','Arial','sans-serif']
+    }
   },
   plugins: [],
 }

@@ -135,3 +135,68 @@ export const mainMenu = [
     }
 
 ]
+
+export const topics = [
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type: 'tag',
+            value: '10k'
+        }
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type: 'query',
+            value: 'Starlink'
+        },
+        postCount: 13663
+    },
+    {
+        title: 'Gündemdekiler',
+        topic: {
+            type: 'query',
+            value: 'Oğuzhan Uğur'
+        },
+        postCount: 1216684
+    },
+    {
+        title: 'Gündemdekiler',
+        topic: {
+            type: 'tag',
+            value: 'fosfor'
+        },
+        postCount: 6546
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type: 'tag',
+            value: '10k'
+        }
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type: 'query',
+            value: 'Starlink'
+        },
+        postCount: 13663
+    },
+    {
+        title: 'Gündemdekiler',
+        topic: {
+            type: 'query',
+            value: 'Oğuzhan Uğur'
+        },
+        postCount: 1216684
+    },
+    {
+        title: 'Gündemdekiler',
+        topic: {
+            type: 'tag',
+            value: 'fosfor'
+        },
+        postCount: 6546
+    }
+]

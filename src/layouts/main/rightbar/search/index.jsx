@@ -9,7 +9,7 @@ export default function Search(){
         setFocus(false)
     })
     return(
-        <div ref={ref} className="min-h-[32px] h-[53px] mb-3 flex items-center relative">
+        <div ref={ref} className="min-h-[32px] h-[53px] mb-3 flex items-center sticky top-0 bg-black z-10">
             <label className="h-[43px] bg-[#202327] rounded-full w-full group border border-transparent relative focus-within:bg-black focus-within:border-[#1d9bf0]">
                <div className="w-14 h-full flex items-center justify-center absolute top-0 left-0">
                    <svg viewBox="0 0 24 24" height={18.75} className="min-w-[32px] text-[#71767b] pointer-events-none">

@@ -10,7 +10,7 @@ export default function UserCard({user}){
             <button className="py-3 px-4 flex items-center text-left gap-3 transition-colors hover:bg-white/[0.03]">
                 <img src={user.avatar} className="w-10 h-10 object-cover rounded-full" />
                 <div className="flex-1 flex flex-col text-left">
-                    <div className="text-[15px] font-bold text-[#e7e9ea] leading-5 flex items-center">
+                    <div className="text-[15px] font-bold leading-5 flex items-center">
                         {user.fullName}
                         {user?.verified && (
                             <div className="text-[#1d9bf0] ml-1">
@@ -20,7 +20,7 @@ export default function UserCard({user}){
                             </div>
                         )}
                     </div>
-                    <div className="text-[15px] text-[#71767b]">@{user.username}</div>
+                    <div className="text-[15px] text-[color:var(--color-base-secondary)]">@{user.username}</div>
                 </div>
                 <div>
                     {following ? (
@@ -29,7 +29,7 @@ export default function UserCard({user}){
                             <div className="hidden group-hover:flex">Takibi bırak</div>
                         </Button>
                     ) : (
-                        <Button variant="white" size="small" onClick={() => setFollowing(true)}>Takip Et</Button>
+                        <Button variant="white" size="small" onClick={() => setFollowing(true)}>Takip et</Button>
                     )}
 
                 </div>

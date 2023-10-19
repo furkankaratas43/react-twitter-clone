@@ -3,7 +3,7 @@ import {useAccount} from "~/store/auth/hooks";
 import {whoFollowUsers} from "~/mock/index.js";
 import UserCard from "~/components/user-card/index.jsx";
 
-export default function WhoFallow(){
+export default function WhoFollow(){
     const account = useAccount()
     return(
         <>

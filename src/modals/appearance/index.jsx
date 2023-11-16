@@ -106,6 +106,7 @@ export default function AppearanceModal({ close }){
                                     setBackgroundColor({
                                         name: 'light',
                                         primary: '#fff',
+                                        primaryAlpha: '#FFFFFFA5',
                                         secondary: '#f7f9f9',
                                         third: '#eff3f4',
                                         modal: '#00000066'
@@ -138,6 +139,7 @@ export default function AppearanceModal({ close }){
                                     setBackgroundColor({
                                         name: 'loess',
                                         primary: '#15202b',
+                                        primaryAlpha: '#15202bA5',
                                         secondary: '#1e2732',
                                         third: '#263340',
                                         modal: '#5b708366'
@@ -170,6 +172,7 @@ export default function AppearanceModal({ close }){
                                     setBackgroundColor({
                                         name: 'dark',
                                         primary: '#000',
+                                        primaryAlpha: '#000000A5',
                                         secondary: '#16181c',
                                         third: '#212327',
                                         modal: '#5b708366'

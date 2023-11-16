@@ -1,23 +1,20 @@
 export const posts = [
     {
         id: '1708632465282150796',
-        content: `Toplu günaydın, ben her sabah spora devam ama her gün post atmıyorum artık, max 4 günde bir atarım çünkü en fazla 4 foto paylaşılıyormuş 🤣`,
+        content: `Senin gölgende, senin izinde, başarabildiğimizce..`,
         photos: [
-            'https://pbs.twimg.com/media/F7VBIvaW0AIZyiX?format=jpg&name=large',
-            'https://pbs.twimg.com/media/F7VBIvZXEAAIpEM?format=jpg&name=large',
-            'https://pbs.twimg.com/media/F7VBIvaW0AAyXEr?format=jpg&name=large',
-            'https://pbs.twimg.com/media/F7VBIvaWAAAWUsx?format=jpg&name=large',
+            'https://pbs.twimg.com/media/FgPbfZnXgAEdmhM?format=jpg&name=large'
         ],
         account: {
-            avatar: 'https://pbs.twimg.com/profile_images/1665642354009677824/LNZo7V8x_400x400.jpg',
-            username: 'tayfunerbilen',
-            fullName: 'Tayfun Erbilen'
+            avatar: 'https://pbs.twimg.com/profile_images/1691897160151826432/_4J4ek7b_400x400.jpg',
+            username: '_furkankaratas',
+            fullName: 'Furkan Karataş'
         },
         stats: {
-            comments: 43535,
-            repost: 3434,
-            like: 96946,
-            view: 903453
+            comments: 10,
+            repost: 10,
+            like: 11,
+            view: 121
         }
     },
     {

@@ -1,6 +1,6 @@
 import SidebarSection from "~/components/sidebar-section";
 import {useAccount} from "~/store/auth/hooks";
-import {whoFollowUsers} from "~/mock/index.js";
+import {whoFollowUsers} from "~/mock";
 import UserCard from "~/components/user-card/index.jsx";
 
 export default function WhoFollow(){
